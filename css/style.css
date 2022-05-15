@@ -424,6 +424,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro", sans-serif;
   color: #515b69;
+  font-weight: 300;
 }
 
 h2 {
@@ -449,51 +450,75 @@ a, button {
 p {
   line-height: 1.5;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
+  color: black;
+}
+
+li {
+  list-style-type: none;
 }
 
 section {
   padding: 5% 10%;
 }
 
-nav {
+#main-nav {
   background-color: #fff;
   -webkit-box-shadow: 0px -1px 10px 1px black;
           box-shadow: 0px -1px 10px 1px black;
 }
 
-nav a {
+#main-nav a {
   margin: 0 15px;
   font-weight: 400;
 }
 
-nav a:hover {
+#main-nav a:hover {
   color: #515b69;
 }
 
-nav img {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
 @media all and (max-width: 1200px) {
-  nav #nav-container {
+  #main-nav #nav-container {
     padding-top: 25px;
     padding-bottom: 25px;
   }
-  nav #nav-list {
+  #main-nav #nav-list {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
             justify-content: center !important;
   }
 }
 
-header img {
-  padding-top: 100px;
-  max-height: 100vh;
+#slider img {
+  padding-top: 89px;
+  width: 100%;
 }
 
-section img {
+#aboutSection img {
   max-height: 50%;
+  margin-top: 10%;
+}
+
+#threerings {
+  text-align: center;
+}
+
+#threerings img {
+  max-width: 100%;
+  height: auto;
+  padding: 10%;
+}
+
+#threesteps {
+  background-color: #f4f6f8;
+  text-align: center;
+}
+
+#threesteps p {
+  padding: 4%;
+}
+
+#threesteps li {
+  padding: 2%;
 }
 /*# sourceMappingURL=style.css.map */

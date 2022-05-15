@@ -29,23 +29,38 @@
 
 <body>
 
-    <nav class="row fixed-top">
-        <div class="container col-xl-5 col-lg-12" id="headerLogo-container">
-            <div class="d-flex justify-content-center">
-                <img src="img/logo.png" id="header-logo" alt="Logo">
+    <nav class="fixed-top" id="main-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-12" id="headerLogo-container">
+                    <div class="d-flex justify-content-center">
+                        <img src="img/logo.png" id="header-logo" alt="Logo" />
+                    </div>
+                </div>
+
+                <div class="col-xl-7 col-lg-12 m-auto" id="nav-container">
+                    <ul class="d-flex m-auto justify-content-end" id="nav-list">
+                        <li class="d-inline-flex">
+                            <a href="" class="menu-link">O nas</a>
+                        </li>
+                        <li class="d-inline-flex">
+                            <a href="" class="menu-link">Naprawa sterowników</a>
+                        </li>
+                        <li class="d-inline-flex">
+                            <a href="" class="menu-link">Typowe usterki</a>
+                        </li>
+                        <li class="d-inline-flex">
+                            <a href="" class="menu-link">Częste pytania</a>
+                        </li>
+                        <li class="d-inline-flex">
+                            <a href="" class="menu-link">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-
-        <div class="container col-xl-7 col-lg-12 m-auto" id="nav-container">
-            <ul class="container d-flex m-auto justify-content-end" id="nav-list">
-                <li class="d-inline-flex"><a href="" class="menu-link">O nas</a></li>
-                <li class="d-inline-flex"><a href="" class="menu-link">Naprawa sterowników</a></li>
-                <li class="d-inline-flex"><a href="" class="menu-link">Typowe usterki</a></li>
-                <li class="d-inline-flex"><a href="" class="menu-link">Częste pytania</a></li>
-                <li class="d-inline-flex"><a href="" class="menu-link">Kontakt</a></li>
-            </ul>
-        </div>
     </nav>
+
 
     <header>
         <slider id="slider">
@@ -55,7 +70,7 @@
 
 
 
-    <section class="row" id="about">
+    <section class="row" id="aboutSection">
 
         <div class="container col-xl-6 d-flex justify-content-center">
             <div class="">
@@ -63,14 +78,14 @@
                 <br>
                 <h3>W takim razie świetnie trafiłeś!</h3>
                 <br>
-
                 <p>Wysyłkowe naprawy sterowników silnika. Zajmujemy się naprawami i modyfikacjami sterowników silników
                     we wszystkich pojazdach osobowych, dostawczych oraz ciężarowych. Przeprowadzamy kompleksowe naprawy
                     elektroniki i mechatroniki, diagnozujemy trudne usterki, obsługujemy wiele systemów elektronicznych
                     w pojazdach. Naprawiamy i programujemy moduły elektroniczne. Przeprowadzamy wszelkie możliwe
                     modyfikacje oprogramowania w sterownikach silników.
                     <br><br>
-                    Ponadto prowadzimy wysyłkowy serwis oraz sprzedaż sterowników samochodowych, które przygotowujemy do pracy na
+                    Ponadto prowadzimy wysyłkowy serwis oraz sprzedaż sterowników samochodowych, które przygotowujemy do
+                    pracy na
                     zasadzie Plug & Play.
                     <br><br>
                     Diagnozujemy – dedykowanym i profesjonalnym sprzętem, w celu trafnej weryfikacji awarii.
@@ -79,16 +94,119 @@
                     Naprawiamy – usterki różnego rodzaju i poziomu skomplikowania.
                     <br>
                     <br>
-                    Do dzieła !!!</p>
+                    Do dzieła !!!
+                </p>
             </div>
 
         </div>
 
         <div class="container col-xl-6 d-flex justify-content-center">
-            <img src="/img/2.jpg" alt="about-photo">
+            <img class="mt-30%" src="/img/2.jpg" alt="about-photo">
         </div>
 
     </section>
+
+    <section id="threerings">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4">
+                    <div>
+                        <img src="img/service 1.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Diagnoza sterownika</h3>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4">
+                    <div>
+                        <img src="img/service 2.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Naprawa usterki</h3>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4">
+                    <div>
+                        <img src="img/service 3.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Zadowolenie klienta</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="threesteps">
+
+        <div class="container">
+            <div class="col">
+                <h2>Wysyłkowa naprawa sterowników samochodowych</h2>
+                <p>Trzy proste kroki aby pozbyć się usterki!</p>
+
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4">
+                    <div>
+                        <!-- <img src="img/service 1.png" alt=""> -->
+                    </div>
+                    <div>
+                        <h3>Przygotuj paczkę</h3>
+                        <p>
+                            We własnym zakresie utwórz, następnie dołącz do wysyłanej części formularz zamówienia. Na
+                            formularzu powinny się znajdować:
+                        </p>
+                        <ul>
+                            <li>Dane pojazdu (marka, model, silnik, VIN)</li>
+                            <li>Dane kontaktowe i adresowe zleceniodawcy</li>
+                            <li>Opis usterki (kody błędów, warunki pracy urządzenia powodowane usterką, wykonane już czynności diagnostyczne)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4">
+                    <div>
+                        <!-- <img src="img/service 2.png" alt=""> -->
+                    </div>
+                    <div>
+                        <h3>Wyślij sterownik do nas</h3>
+                        <p>
+                            Uszkodzoną część bezpiecznie zapakuj po czym, wyślij na adres firmy:
+                        </p>
+                        <p>
+                            (Nie musisz nas informować o zamiarze wysłania sterownika)</p>
+                        <ul>
+                            <li>Elektronika Samochodowa</li>
+                            <li>Mazowiecka 2, 66-400 Gorzów Wlkp.</li>
+                            <li>Tel. 883 036 619</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4">
+                    <div>
+                        <!-- <img src="img/service 3.png" alt=""> -->
+                    </div>
+                    <div>
+                        <h3>Czekaj na kontakt</h3>
+                        <p>
+                            Jak najszybciej odezwiemy się, po diagnozie części, przedstawiając ofertę, oraz wycenę.
+                        </p>
+                        <p>
+                            Po wykonanej diagnozie klient NIE jest zobligowany do wykonania usługi naprawczej. W przypadku rezygnacji z naszych usługi naliczamy tylko koszt diagnostyki komponentu.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
 
 
 
