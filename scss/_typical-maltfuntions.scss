@@ -1,8 +1,25 @@
 .typical-maltfuntions {
 
+    
+    background-image: url(/img/light_gradient_violet_bg.jpg);
+
+    .ecu-holder{
+        padding: 5%;
+    }
+
     header {
-        padding-top: 5%;
+        padding: 5%;
         text-align: center;
     }
+
+    i {
+        line-height: 40px; 
+    }
+
+    li {
+        font-size: 18px;
+        font-weight: 100;
+    }
+   
 
 }

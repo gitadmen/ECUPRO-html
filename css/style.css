@@ -421,6 +421,10 @@ body {
   color: #515b69;
 }
 
+i {
+  color: #35baf2;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro", sans-serif;
   color: #515b69;
@@ -459,7 +463,7 @@ li {
 }
 
 section {
-  padding: 5% 10%;
+  padding: 6% 0% 5% 0%;
 }
 
 #main-nav {
@@ -494,6 +498,10 @@ section {
   width: 100%;
 }
 
+#aboutSection {
+  padding-bottom: 0;
+}
+
 #aboutSection img {
   max-height: 50%;
   margin-top: 10%;
@@ -501,6 +509,7 @@ section {
 
 #threerings {
   text-align: center;
+  padding-top: 0;
 }
 
 #threerings img {
@@ -531,7 +540,6 @@ section {
 }
 
 #threesteps i {
-  color: #35baf2;
   line-height: 100px;
 }
 
@@ -544,8 +552,33 @@ section {
   color: #fff;
 }
 
+.typical-maltfuntions {
+  background-image: url(/img/light_gradient_violet_bg.jpg);
+}
+
+.typical-maltfuntions .ecu-holder {
+  padding: 5%;
+}
+
 .typical-maltfuntions header {
-  padding-top: 5%;
+  padding: 5%;
   text-align: center;
+}
+
+.typical-maltfuntions i {
+  line-height: 40px;
+}
+
+.typical-maltfuntions li {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+#faq h4 {
+  padding: 10px 0;
+}
+
+#faq img {
+  padding: 40px;
 }
 /*# sourceMappingURL=style.css.map */
