@@ -1,36 +1,32 @@
-#baner,
 #baner-blue {
+
     padding: 50px 60px;
     background-color: #1a1f3a;
 
     h2,
     h5 {
-        color: #fff;
+        color: #f4f6f8;
         padding: 10px 0px;
+    }
+
+    #caller-first {
+        background-color: #f4f6f8;
+        border-radius: 2px;
     }
 }
 
-#baner-blue {
+#baner-white {
+
+    padding: 50px 60px;
     background-color: #f4f6f8;
 
     h2,
     h5 {
-        color: #07354c;
+        color: #1a1f3a;
     }
 
-    button {
-        background-color: white;
-    }
-}
-
-#caller {
-
-    width: auto;
-    height: auto;
-    background-color: #07354c;
-    padding: auto;
-
-    a {
-        color: #7f8795;
+    #caller-second {
+        background-color: #fff;
+        border-radius: 10px;
     }
 }

@@ -543,42 +543,35 @@ section {
   line-height: 100px;
 }
 
-#baner,
 #baner-blue {
   padding: 50px 60px;
   background-color: #1a1f3a;
 }
 
-#baner h2,
-#baner h5,
 #baner-blue h2,
 #baner-blue h5 {
-  color: #fff;
+  color: #f4f6f8;
   padding: 10px 0px;
 }
 
-#baner-blue {
+#baner-blue #caller-first {
+  background-color: #f4f6f8;
+  border-radius: 2px;
+}
+
+#baner-white {
+  padding: 50px 60px;
   background-color: #f4f6f8;
 }
 
-#baner-blue h2,
-#baner-blue h5 {
-  color: #07354c;
+#baner-white h2,
+#baner-white h5 {
+  color: #1a1f3a;
 }
 
-#baner-blue button {
-  background-color: white;
-}
-
-#caller {
-  width: auto;
-  height: auto;
-  background-color: #07354c;
-  padding: auto;
-}
-
-#caller a {
-  color: #7f8795;
+#baner-white #caller-second {
+  background-color: #fff;
+  border-radius: 10px;
 }
 
 #typical-maltfuntions {
@@ -653,7 +646,7 @@ section {
 }
 
 #add-info .grey {
-  background-color: #dbe2ea;
+  background-color: #e7ebee;
   padding: 80px;
 }
 
@@ -669,7 +662,7 @@ section {
 
 #add-info .darkblue p,
 #add-info .darkblue h2 {
-  color: #bac5d0;
+  color: #e7ebee;
 }
 
 #articles h3 {
