@@ -1,15 +1,31 @@
 #add-info {
 
+    padding: 0;
+    text-align: center;
 
-    background-color: red;
+    h2 {
+        padding-bottom: 20px;
+    }
 
-    
 
     .grey {
-        background-color: grey;
+        background-color: #dbe2ea;
+        padding: 80px;
+
+        p,
+        h2 {
+            color: #1a1f3a;
+        }
     }
 
     .darkblue {
-        background-color: darkslateblue;
+        background-color: #1a1f3a;
+        padding: 80px;
+
+        p,
+        h2 {
+
+            color: #bac5d0;
+        }
     }
 }

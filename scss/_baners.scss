@@ -1,11 +1,34 @@
-#baner {
-
+#baner,
+#baner-blue {
     padding: 50px 60px;
-
     background-color: #1a1f3a;
-    
-    h2, h5 {
-        color: #fff
+
+    h2,
+    h5 {
+        color: #fff;
+        padding: 10px 0px;
     }
-   
+}
+
+#baner-blue {
+    background-color: #f4f6f8;
+
+    h2,
+    h5 {
+        color: #07354c;
+    }
+
+    button {
+        background-color: white;
+    }
+}
+
+button {
+    padding: 10px 30px;
+    border-radius: 2px;
+    border: none;
+
+    a {
+        color: #7f8795;
+    }
 }

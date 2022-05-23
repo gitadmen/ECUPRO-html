@@ -69,7 +69,6 @@
     </header>
 
 
-
     <section id="aboutSection">
         <div class="container">
             <div class="row">
@@ -116,7 +115,7 @@
 
     <section id="threerings">
         <div class="container">
-            <div class="row ">
+            <div class="row d-flex justify-content-around">
                 <div class="col-sm-3">
                     <div>
                         <img src="img/service 1.png" alt="logo-icon">
@@ -143,7 +142,6 @@
                         <h3>Zadowolenie klienta</h3>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -166,7 +164,7 @@
                             We własnym zakresie utwórz, następnie dołącz do wysyłanej części formularz zamówienia. Na
                             formularzu powinny się znajdować:
                         </p>
-                        <ul>
+                        <ul class="p-0">
                             <li>Dane pojazdu (marka, model, silnik, VIN)</li>
                             <li>Dane kontaktowe i adresowe zleceniodawcy</li>
                             <li>Opis usterki (kody błędów, warunki pracy urządzenia powodowane usterką, wykonane już
@@ -186,10 +184,10 @@
                         </p>
                         <p>
                             (Nie musisz nas informować o zamiarze wysłania sterownika)</p>
-                        <ul>
+                        <ul class="p-0">
                             <li>Elektronika Samochodowa</li>
-                            <li>Mazowiecka 2, 66-400 Gorzów Wlkp.</li>
-                            <li>Tel. 883 036 619</li>
+                            <li>Paczkomatowa 123 :) </li>
+                            <li>Tel. 000 000 000</li>
                         </ul>
                     </div>
                 </div>
@@ -216,10 +214,16 @@
     </section>
 
     <section id="baner">
-        <div>
-            <h2>Potrzebujesz pomocy?</h2>
-            <h5>Nie możesz określić przyczyny awarii pojazdu, a inne serwisy rozkładają ręce? Skontaktuj się z nami!
-            </h5>
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col-md-9">
+                    <h2>Potrzebujesz pomocy?</h2>
+                    <h5>Nie możesz określić przyczyny awarii pojazdu, a inne serwisy rozkładają ręce? Skontaktuj się z nami!</h5> 
+                </div>
+                <div class="col-md-3 m-auto">
+                    <button class="align-middle"><a href="tel:000-000-000">123 456 789</a></button>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -258,7 +262,6 @@
                         </li>
                     </ul>
                 </div>
-
                 <div class="col-md-6">
                     <div class="ecu-holder">
                         <img class="img-fluid" src="/img/engincontrolunit-vector.png" alt="">
@@ -286,7 +289,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="row">
                 <div class="col-lg-4 d-flex flex-wrap" id="faq-box">
                     <div class="col-2">
@@ -379,27 +381,11 @@
     </section>
 
 
-    
+
 
     <section id="add-info">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 grey">
-                    <h2>Zakup używanego sterownika</h2>
-                    <p>Zakup używanego sterownika wiąże się koniecznością zaprogramowania go do pojazdu oraz z ryzykiem
-                        nabycia uszkodzonej jednostki. Aby sprawdzić czy sterownik jest sprawny należy go najpierw
-                        zaprogramować do pojazdu co prawie zawsze wiąże się z koniecznością jego otwarcia – co z kolei
-                        naruszy plomby sprzedawcy uniemożliwiając zwrot zakupionej uszkodzonej części
-                    </p>
-                </div>
-                <div class="col-md-6 darkblue">
-                    <h2>Koszty?</h2>
-                    <p>
-                        Koszty naprawy sterownika są niższe niż jego wymiana – do której należy doliczyć koszty
-                        programowania jednostki do pojazdu. Dodatkowo należy wiedzieć iż diagnoza może może wykazać że
-                        sterownik jest sprawny, a usterka znajduje się na pojeździe i wymiana sterownika może okazać się
-                        nieskuteczna, a tylko wygenerować dodatkowe niepotrzebne koszty.
-                    </p>
-                </div>
                 <div class="col-md-6 darkblue">
                     <h2>Zakup używanego sterownika</h2>
                     <p>Zakup używanego sterownika wiąże się koniecznością zaprogramowania go do pojazdu oraz z ryzykiem
@@ -415,20 +401,140 @@
                         programowania jednostki do pojazdu. Dodatkowo należy wiedzieć iż diagnoza może może wykazać że
                         sterownik jest sprawny, a usterka znajduje się na pojeździe i wymiana sterownika może okazać się
                         nieskuteczna, a tylko wygenerować dodatkowe niepotrzebne koszty.
+                    </p>
+                </div>
+                <div class="col-md-6 grey">
+                    <h2>Wymiana sterownika</h2>
+                    <p>W przypadku kiedy naprawa sterownika jest z jakiegoś powodu niemożliwa lub nieopłacalna –
+                        oferujemy wymianę jednostki na sprawną, zaprogramowaną i gotową do uruchomienia na pojeździe.
+                    </p>
+                </div>
+                <div class="col-md-6 darkblue">
+                    <h2>Kontakt z nami</h2>
+                    <p>
+                        Kontakt telefoniczny z nami jest możliwy w miarę naszych możliwości – które niekiedy są
+                        ograniczone. Natomiast w każdej chwili można wysłać email lub wiadomość WhatsApp.
                     </p>
                 </div>
             </div>
+        </div>
     </section>
 
+    <section id="articles">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <article>
 
+                        <h3>Sterownik silnika - co i jak?</h3>
 
+                        <p>Era komputerów silnikowych na dobre zaczęła się z początkiem lat 70-tych, kiedy to firma
+                            Bosch zaczęła rozwijać zintegrowany system wtryskowo-zapłonowy Bosch Motronic. Tutaj warto
+                            wspomnieć, iż to właśnie Robert Bosch w roku 1902 opracował udoskonalony i bezkonkurencyjny
+                            wysokonapięciowy zapłon elektromagnetyczny, który na dobre pchnął do przodu rozwój
+                            szybkobieżnych silników benzynowych. Nic więc dziwnego, że firma Bosch absolutnie i
+                            globalnie przoduje w tej i pochodnych dziedzinach branży automotive.
 
+                            Sterownik silnika, często inaczej zwany komputer, kalkulator lub kaseta silnika. Ang. ECU –
+                            Engine control unit, PCM – Powertrain control module, ECM – Engine control module itp.
 
+                            Sterownik silnika (ECU) jak sama nazwa wskazuje, jest to jeden zintegrowany elektroniczny
+                            komputer sterujący, nadzorujący pracą silnika naszego pojazdu. Sterownik ten pobiera dane z
+                            wielu czujników różnego rodzaju, mierzących szerokie spektrum parametrów pracy silnika w
+                            czasie rzeczywistym. Otrzymane dane są przez tę jednostkę przetwarzane, a na podstawie
+                            obliczeń komputer odpowiednio steruje podzespołami wykonawczymi oraz zarządza układami
+                            podrzędnymi. Głównym założeniem pracy sterownika silnika jest precyzyjny dobór składu
+                            mieszaniny paliwowo-powietrznej, czyli uzyskania stechiometrii spalanej mieszanki w
+                            zależności od warunków pracy silnika.
 
+                            Oczywiście obecne możliwości i rozwiązania techniczne obejmują o wiele więcej istotnych
+                            kwestii dotyczących funkcjonalności tychże jednostek. Współczesne komputery silników
+                            obsługują dodatkowe funkcje takie jak systemy oczyszczania i recyrkulacji spalin, układ
+                            doładowania sprężonym powietrzem, układ zmiennych faz rozrządu, system zawirowania powietrza
+                            dolotowego. Te i pozostałe podukłady mają istotny wpływ na ekonomie i ekologie silników oraz
+                            na bezpieczeństwo i komfort użytkowników.</p>
+                    </article>
+                </div>
 
+                <div class="col-md-6">
+                    <article>
+                        <img src="/img/article--header-photo.jpg" class="img-fluid" alt="article-ecu-photo">
+                        <h3>Co i jak się psuje?</h3>
 
+                        <p>Wbrew powszechnej opinii elektroniczna jednostka sterująca silnikiem, wykonana jest na bardzo
+                            wysokim jakościowo i technologicznie poziomie. Wykorzystane do budowy materiały i komponenty
+                            muszą spełniać wysokie normy jakości i ściśle określoną specyfikacje techniczną. Spora część
+                            elektronicznych mikroukładów projektowana i produkowana jest tylko i wyłącznie na potrzeby
+                            branży automotive.
 
+                            To nie znaczy jednak, że samochodowe moduły elektroniczne są doskonałe i niepodatne na
+                            awarie, bądź odporne na wszelkie czynniki zewnętrzne. Należy mieć na uwadze, iż warunki, w
+                            jakich pracują dane podzespoły elektroniki samochodowej, są zmienne i nierzadko skrajne,
+                            chociażby wilgotność powietrza czy temperatura otoczenia. Zwiększona ciepłota środowiska
+                            pracy, ogranicza zdolność odprowadzania ciepła z grzejących się elementów. Za to niższa
+                            temperatura powoduje resublimacje wilgoci na elektronice, co może skutkować spięciem
+                            elektrycznym lub korozją połączeń obwodów. Z kolei długotrwały proces zmian ciepłoty
+                            otoczenia i samej jednostki doprowadzają do zmęczenia materiału spowodowanego
+                            rozszerzalnością temperaturową. Dodajmy do tego czas pracy, który liczony jest latach czy
+                            tysiącach godzin, przeciążenia mechaniczne jak wibracje, obciążenia i spięcia zewnętrzne,
+                            czy naturalny proces starzenia się komponentów.</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="baner-blue">
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col-md-9">
+                    <h2>Nie zwlekaj z naprawą!</h2>
+                    <h5>Uszkodzony komputer silnika? Wyślij go do naprawy!</h5>
+                </div>
+                <div class="col-md-3 m-auto">
+                    <button class="align-middle"><a href="tel:000-000-000">123 456 789</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="three-slides">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 slide" id="slide-1">
+                    <h2>Profesjonalny sprzęt diagnostyczny</h2>
+                    <p>którym dysponujemy to klucz do trafnej diagnozy, niezbędnej aby naprawić usterkę.</p>
+                </div>
+                <div class="col-md-4 slide" id="slide-2">
+                    <h2>Oryginalne części zamienne</h2>
+                    <p>i tylko takie dostępne na naszym magazynie, wykorzystujemy do skutecznej naprawy.</p>
+                </div>
+                <div class="col-md-4 slide" id="slide-3">
+                    <h2>Dokumentacja serwisowa</h2>
+                    <p>dzięki której możemy sprawnie i skutecznie rozwiązywać problemy techniczne.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="circle d-flex">
+                        <i class="fa-solid fa-location-dot fa-3x"></i>
+                    </div>
+
+                    <h2>Serwis elektroniki samochodowej</h2>
+                    <ul class="p-0">
+                        <li>ul. Anonim</li>
+                        <li>Tel. 000 000 000</li>
+                        <li>- Adres tylko do wysyłki -</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- JS and additional scripts  -->
