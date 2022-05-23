@@ -630,10 +630,6 @@ button a {
   padding: 40px;
 }
 
-#faq #faq-box {
-  padding-top: 30px;
-}
-
 #workshop {
   background-image: url(/img/workshop-section-bg.jpg);
   background-repeat: no-repeat;
@@ -697,20 +693,20 @@ button a {
 }
 
 #three-slides #slide-1 {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f4f6f8), color-stop(88%, rgba(244, 246, 248, 0.2))), url("/img/slider-background (1).jpg");
-  background: linear-gradient(180deg, #f4f6f8 5%, rgba(244, 246, 248, 0.2) 88%), url("/img/slider-background (1).jpg");
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f4f6f8), color-stop(88%, rgba(244, 246, 248, 0.2))), url(/img/slider-background-1.jpg);
+  background: linear-gradient(180deg, #f4f6f8 5%, rgba(244, 246, 248, 0.2) 88%), url(/img/slider-background-1.jpg);
   background-size: cover;
 }
 
 #three-slides #slide-2 {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f4f6f8), color-stop(88%, rgba(244, 246, 248, 0.2))), url("/img/slider-background (3).jpg");
-  background: linear-gradient(180deg, #f4f6f8 5%, rgba(244, 246, 248, 0.2) 88%), url("/img/slider-background (3).jpg");
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f4f6f8), color-stop(88%, rgba(244, 246, 248, 0.2))), url(/img/slider-background-3.jpg);
+  background: linear-gradient(180deg, #f4f6f8 5%, rgba(244, 246, 248, 0.2) 88%), url(/img/slider-background-3.jpg);
   background-size: cover;
 }
 
 #three-slides #slide-3 {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f4f6f8), color-stop(88%, rgba(244, 246, 248, 0.2))), url("/img/slider-background (2).jpg");
-  background: linear-gradient(180deg, #f4f6f8 5%, rgba(244, 246, 248, 0.2) 88%), url("/img/slider-background (2).jpg");
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f4f6f8), color-stop(88%, rgba(244, 246, 248, 0.2))), url(/img/slider-background-2.jpg);
+  background: linear-gradient(180deg, #f4f6f8 5%, rgba(244, 246, 248, 0.2) 88%), url(/img/slider-background-2.jpg);
   background-size: cover;
 }
 
