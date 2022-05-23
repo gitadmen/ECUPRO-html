@@ -455,7 +455,7 @@ p {
   line-height: 1.5;
   font-size: 20px;
   font-weight: 300;
-  color: black;
+  color: #7f8795;
 }
 
 li {
@@ -463,7 +463,7 @@ li {
 }
 
 section {
-  padding: 6% 0% 5% 0%;
+  padding: 90px 40px;
 }
 
 #main-nav {
@@ -515,7 +515,7 @@ section {
 #threerings img {
   max-width: 100%;
   height: auto;
-  padding: 10%;
+  margin-bottom: 20px;
 }
 
 #threesteps {
@@ -524,11 +524,11 @@ section {
 }
 
 #threesteps p {
-  padding: 4%;
+  padding: 10px;
 }
 
 #threesteps li {
-  padding: 2%;
+  padding: 3px;
 }
 
 #threesteps .circle {
@@ -543,42 +543,90 @@ section {
   line-height: 100px;
 }
 
-.baner {
-  padding: 2%  7% 4% 7%;
+#baner {
+  padding: 50px 60px;
   background-color: #1a1f3a;
 }
 
-.baner h1, .baner h5 {
+#baner h2, #baner h5 {
   color: #fff;
 }
 
-.typical-maltfuntions {
+#typical-maltfuntions {
   background-image: url(/img/light_gradient_violet_bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-.typical-maltfuntions .ecu-holder {
-  padding: 5%;
+#typical-maltfuntions .ecu-holder {
+  padding: 20px;
 }
 
-.typical-maltfuntions header {
-  padding: 5%;
+#typical-maltfuntions header {
+  padding-bottom: 30px;
   text-align: center;
 }
 
-.typical-maltfuntions i {
+#typical-maltfuntions i {
   line-height: 40px;
 }
 
-.typical-maltfuntions li {
+#typical-maltfuntions li {
   font-size: 18px;
   font-weight: 100;
 }
 
-#faq h4 {
-  padding: 10px 0;
+#faq h2, #faq h4 {
+  margin-bottom: 20px;
+}
+
+#faq h3, #faq p {
+  margin-left: 15px;
+}
+
+#faq i {
+  font-size: xx-large;
+  line-height: 60px;
+}
+
+#faq .circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid;
+  border-color: #35baf2;
 }
 
 #faq img {
   padding: 40px;
+}
+
+#faq #faq-box {
+  padding-top: 30px;
+}
+
+#workshop {
+  background-image: url(/img/workshop-section-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#workshop h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+#add-info {
+  background-color: red;
+}
+
+#add-info .grey {
+  background-color: grey;
+}
+
+#add-info .darkblue {
+  background-color: darkslateblue;
 }
 /*# sourceMappingURL=style.css.map */
