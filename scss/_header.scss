@@ -1,7 +1,7 @@
 #slider {
 
-    padding-top: 89px;
-    width: 100%;
+    
+    padding: 200px 100px 100px 100px;
 
     background: rgb(25,41,64);
     background: linear-gradient(126deg, rgba(25,41,64,1) 0%, rgba(63,52,70,1) 11%, rgba(105,63,77,1) 23%, rgba(74,42,67,1) 31%, rgba(60,36,72,1) 38%, rgba(24,14,68,1) 50%, rgba(33,24,54,1) 64%, rgba(36,47,69,1) 80%, rgba(44,35,38,1) 88%, rgba(44,35,38,1) 100%);;
@@ -9,6 +9,12 @@
 
     h1 {
         font-size: 28px;
+        color: #fff;
+    }
+
+    h2{
+        font-size: 44px;
+        color: #fff;
     }
 
 

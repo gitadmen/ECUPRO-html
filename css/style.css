@@ -466,27 +466,29 @@ section {
   padding: 90px 0px;
 }
 
-#main-nav {
+#navbar {
   background-color: #fff;
   -webkit-box-shadow: 0px -1px 10px 1px black;
           box-shadow: 0px -1px 10px 1px black;
+  -webkit-transition: top 0.3s;
+  transition: top 0.3s;
 }
 
-#main-nav a {
+#navbar a {
   margin: 0 15px;
   font-weight: 400;
 }
 
-#main-nav a:hover {
+#navbar a:hover {
   color: #515b69;
 }
 
 @media all and (max-width: 1200px) {
-  #main-nav #nav-container {
+  #navbar #nav-container {
     padding-top: 25px;
     padding-bottom: 25px;
   }
-  #main-nav #nav-list {
+  #navbar #nav-list {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
             justify-content: center !important;
@@ -494,14 +496,19 @@ section {
 }
 
 #slider {
-  padding-top: 89px;
-  width: 100%;
+  padding: 200px 100px 100px 100px;
   background: #192940;
   background: linear-gradient(126deg, #192940 0%, #3f3446 11%, #693f4d 23%, #4a2a43 31%, #3c2448 38%, #180e44 50%, #211836 64%, #242f45 80%, #2c2326 88%, #2c2326 100%);
 }
 
 #slider h1 {
   font-size: 28px;
+  color: #fff;
+}
+
+#slider h2 {
+  font-size: 44px;
+  color: #fff;
 }
 
 #aboutSection img {
@@ -584,7 +591,7 @@ section {
 }
 
 #typical-maltfuntions .ecu-holder {
-  padding: 20px;
+  padding: 90px 20px;
 }
 
 #typical-maltfuntions header {
@@ -599,6 +606,7 @@ section {
 #typical-maltfuntions li {
   font-size: 18px;
   font-weight: 100;
+  padding-top: 10px;
 }
 
 #faq h2, #faq h4 {
