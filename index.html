@@ -25,6 +25,10 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- AOS animations -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -68,8 +72,8 @@
         </div>
     </header>
 
-
-    <section id="aboutSection">
+    
+    <section id="aboutSection" data-aos="fade-up" data-aos-delay="300">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6">
@@ -116,7 +120,7 @@
     <section id="threerings">
         <div class="container">
             <div class="row d-flex justify-content-around">
-                <div class="col-sm-3">
+                <div data-aos="fade-right" class="col-sm-3">
                     <div>
                         <img src="img/service-1.png" alt="logo-icon">
                     </div>
@@ -125,7 +129,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-3">
+                <div data-aos="zoom-out" class="col-sm-3">
                     <div>
                         <img src="img/service-2.png" alt="logo-icon">
                     </div>
@@ -134,7 +138,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-3">
+                <div data-aos="fade-left" class="col-sm-3">
                     <div>
                         <img src="img/service-3.png" alt="logo-icon">
                     </div>
@@ -156,7 +160,7 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div>
-                        <div class="circle mx-auto"><i class="fa-solid fa-box-open fa-4x"></i></div>
+                        <div class="circle mx-auto" data-aos="zoom-in"><i class="fa-solid fa-box-open fa-4x"></i></div>
                     </div>
                     <div>
                         <h3>Przygotuj paczkę</h3>
@@ -175,7 +179,7 @@
 
                 <div class="col-lg-4">
                     <div>
-                        <div class="circle mx-auto"><i class="fa-solid fa-truck-fast fa-4x"></i></div>
+                        <div class="circle mx-auto" data-aos="zoom-in"><i class="fa-solid fa-truck-fast fa-4x"></i></div>
                     </div>
                     <div>
                         <h3>Wyślij sterownik do nas</h3>
@@ -194,7 +198,7 @@
 
                 <div class="col-lg-4">
                     <div>
-                        <div class="circle mx-auto"><i class="fa-solid fa-mobile-screen-button fa-4x"></i></div>
+                        <div class="circle mx-auto" data-aos="zoom-in"><i class="fa-solid fa-mobile-screen-button fa-4x"></i></div>
                     </div>
                     <div>
                         <h3>Czekaj na kontakt</h3>
@@ -237,34 +241,48 @@
             <div class="row">
                 <div class="col-md-6">
                     <ul>
-                        <li><i class="fa-solid fa-circle-xmark fa-lg"></i> - Brak komunikacji ze sterownikiem silnika.
+                        <li data-aos="zoom-out-right" data-aos-duration="500" data-aos-offset="120">
+                            <i class="fa-solid fa-circle-xmark fa-lg"></i> - Brak komunikacji ze sterownikiem silnika.
                         </li>
-                        <li><i class="fa-solid fa-circle-xmark fa-lg"></i> - Błąd wewnętrzny sterownika / usterka
+                        <li data-aos="zoom-out-right" data-aos-duration="600" data-aos-offset="120">
+                            <i class="fa-solid fa-circle-xmark fa-lg"></i> - Błąd wewnętrzny sterownika / usterka
                             procesora.</li>
-                        <li><i class="fa-solid fa-circle-xmark fa-lg"></i> - Usterka / błąd oprogramowania sterownika.
+                        <li data-aos="zoom-out-right" data-aos-duration="700" data-aos-offset="120">
+                            <i class="fa-solid fa-circle-xmark fa-lg"></i> - Usterka / błąd oprogramowania sterownika.
                         </li>
-                        <li><i class="fa-solid fa-circle-xmark fa-lg"></i> - Błąd sumy kontrolnej oprogramowania
+                        <li data-aos="zoom-out-right" data-aos-duration="800" data-aos-offset="120">
+                            <i class="fa-solid fa-circle-xmark fa-lg"></i> - Błąd sumy kontrolnej oprogramowania
                             (checksum error).</li>
-                        <li><i class="fa-solid fa-circle-xmark fa-lg"></i> - Poprawność pracy silnika zależna od
+                        <li data-aos="zoom-out-right" data-aos-duration="900" data-aos-offset="120">
+                            <i class="fa-solid fa-circle-xmark fa-lg"></i> - Poprawność pracy silnika zależna od
                             temperatury otoczenia.</li>
-                        <li><i class="fa-solid fa-circle-xmark fa-lg"></i> - Silnik gaśnie po nagrzaniu się sterownika,
+                        <li data-aos="zoom-out-right" data-aos-duration="1000" data-aos-offset="120">
+                            <i class="fa-solid fa-circle-xmark fa-lg"></i> - Silnik gaśnie po nagrzaniu się sterownika,
                             lub odwrotnie.</li>
-                        <li><i class="fa-solid fa-circle-xmark fa-lg"></i> - Tryb awaryjny pomimo braku błędów DTC.</li>
-                        <li><i class="fa-solid fa-circle-xmark fa-lg"></i> - Błąd / usterka magistrali CAN BUS / LIN
+                        <li data-aos="zoom-out-right" data-aos-duration="1100" data-aos-offset="120">
+                            <i class="fa-solid fa-circle-xmark fa-lg"></i> - Tryb awaryjny pomimo braku błędów DTC.</li>
+                        <li data-aos="zoom-out-right" data-aos-duration="1200" data-aos-offset="120">
+                            <i class="fa-solid fa-circle-xmark fa-lg"></i> - Błąd / usterka magistrali CAN BUS / LIN
                             BUS.</li>
-                        <li><i class="fa-solid fa-circle-xmark fa-lg"></i> - Blokada rozruchu (antykradzieżowa IMMO).
+                        <li data-aos="zoom-out-right" data-aos-duration="1300" data-aos-offset="120">
+                            <i class="fa-solid fa-circle-xmark fa-lg"></i> - Blokada rozruchu (antykradzieżowa IMMO).
                         </li>
-                        <li><i class="fa-solid fa-circle-xmark fa-lg"></i> - Silnik nie daje się uruchomić.</li>
-                        <li><i class="fa-solid fa-circle-xmark fa-lg"></i> - Wypadanie zapłonów, nierówna praca silnika.
+                        <li data-aos="zoom-out-right" data-aos-duration="1400" data-aos-offset="120">
+                            <i class="fa-solid fa-circle-xmark fa-lg"></i> - Silnik nie daje się uruchomić.</li>
+                        <li data-aos="zoom-out-right" data-aos-duration="1500" data-aos-offset="120">
+                            <i class="fa-solid fa-circle-xmark fa-lg"></i> - Wypadanie zapłonów, nierówna praca silnika.
                         </li>
-                        <li><i class="fa-solid fa-circle-xmark fa-lg"></i> - Brak pracy na wszystkie cylindry.</li>
-                        <li><i class="fa-solid fa-circle-xmark fa-lg"></i> - Silnik gaśnie w trakcie jazdy.</li>
-                        <li><i class="fa-solid fa-circle-xmark fa-lg"></i> - Skoki napięć na czujnikach lub aktuatorach.
+                        <li data-aos="zoom-out-right" data-aos-duration="1600" data-aos-offset="120">
+                            <i class="fa-solid fa-circle-xmark fa-lg"></i> - Brak pracy na wszystkie cylindry.</li>
+                        <li data-aos="zoom-out-right" data-aos-duration="1700" data-aos-offset="120">
+                            <i class="fa-solid fa-circle-xmark fa-lg"></i> - Silnik gaśnie w trakcie jazdy.</li>
+                        <li data-aos="zoom-out-right" data-aos-duration="1800" data-aos-offset="120">
+                            <i class="fa-solid fa-circle-xmark fa-lg"></i> - Skoki napięć na czujnikach lub aktuatorach.
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-6">
-                    <div class="ecu-holder">
+                    <div class="ecu-holder" data-aos="fade-left">
                         <img class="img-fluid" src="/img/engincontrolunit-vector.png" alt="">
                     </div>
                 </div>
@@ -293,7 +311,8 @@
             <div class="row">
                 <div class="col-lg-4 d-flex flex-wrap">
                     <div class="col-2">
-                        <div class="circle d-flex justify-content-center"><i class="fa-solid fa-dollar-sign"></i></div>
+                        <div class="circle d-flex justify-content-center" data-aos="flip-right" data-aos-offset="120">
+                            <i class="fa-solid fa-dollar-sign"></i></div>
                     </div>
                     <div class="col-10">
                         <h3>Jaki jest koszt naprawy?</h3>
@@ -303,8 +322,8 @@
                 </div>
                 <div class="col-lg-4 d-flex flex-wrap">
                     <div class="col-2">
-                        <div class="circle d-flex justify-content-center"><i
-                                class="d-flex fa-solid fa-magnifying-glass-dollar"></i></div>
+                        <div class="circle d-flex justify-content-center" data-aos="flip-right" data-aos-offset="120">
+                            <i class="d-flex fa-solid fa-magnifying-glass-dollar"></i></div>
                     </div>
                     <div class="col-10">
                         <h3>Jaki jest koszt diagnostyki?</h3>
@@ -314,7 +333,8 @@
                 </div>
                 <div class="col-lg-4 d-flex flex-wrap">
                     <div class="col-2">
-                        <div class="circle d-flex justify-content-center"><i class="fa-solid fa-clock"></i></div>
+                        <div class="circle d-flex justify-content-center" data-aos="flip-right" data-aos-offset="120">
+                            <i class="fa-solid fa-clock"></i></div>
                     </div>
                     <div class="col-10">
                         <h3>Jaki jest czas realizacji usługi?</h3>
@@ -324,7 +344,8 @@
                 </div>
                 <div class="col-lg-4 d-flex flex-wrap">
                     <div class="col-2">
-                        <div class="circle d-flex justify-content-center"><i class="fa-solid fa-briefcase-medical"></i>
+                        <div class="circle d-flex justify-content-center" data-aos="flip-right" data-aos-offset="120">
+                            <i class="fa-solid fa-briefcase-medical"></i>
                         </div>
                     </div>
                     <div class="col-10">
@@ -334,7 +355,8 @@
                 </div>
                 <div class="col-lg-4 d-flex flex-wrap">
                     <div class="col-2">
-                        <div class="circle d-flex justify-content-center"><i class="fa-solid fa-phone"></i></div>
+                        <div class="circle d-flex justify-content-center" data-aos="flip-right" data-aos-offset="120">
+                            <i class="fa-solid fa-phone"></i></div>
 
                     </div>
                     <div class="col-10">
@@ -345,7 +367,8 @@
                 </div>
                 <div class="col-lg-4 d-flex flex-wrap">
                     <div class="col-2">
-                        <div class="circle d-flex justify-content-center"><i class="fa-solid fa-play"></i></div>
+                        <div class="circle d-flex justify-content-center" data-aos="flip-right" data-aos-offset="120">
+                            <i class="fa-solid fa-play"></i></div>
                     </div>
                     <div class="col-10">
                         <h3>Plug & Play</h3>
@@ -542,7 +565,10 @@
     <!-- JS and additional scripts  -->
 
     <!-- <script src="js/jquery-3.6.0.min.js"></script> -->
+
     <script src="https://kit.fontawesome.com/a707b59f39.js" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="js/main.js"></script>
 </body>

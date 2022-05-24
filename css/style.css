@@ -498,18 +498,14 @@ section {
   width: 100%;
 }
 
-#aboutSection {
-  padding-bottom: 0;
-}
-
 #aboutSection img {
   max-height: 50%;
-  margin-top: 10%;
+  margin-top: 50px;
 }
 
 #threerings {
   text-align: center;
-  padding-top: 0;
+  padding-top: 50px;
 }
 
 #threerings img {
