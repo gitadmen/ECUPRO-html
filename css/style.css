@@ -493,9 +493,15 @@ section {
   }
 }
 
-#slider img {
+#slider {
   padding-top: 89px;
   width: 100%;
+  background: #192940;
+  background: linear-gradient(126deg, #192940 0%, #3f3446 11%, #693f4d 23%, #4a2a43 31%, #3c2448 38%, #180e44 50%, #211836 64%, #242f45 80%, #2c2326 88%, #2c2326 100%);
+}
+
+#slider h1 {
+  font-size: 28px;
 }
 
 #aboutSection img {
