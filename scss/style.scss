@@ -2,12 +2,13 @@
 @import 'utils/variables';
 @import 'utils/mixins';
 @import 'utils/base';
+@import 'utils/responsive-rules';
 
 @import 'navbar';
 @import 'header';
-@import 'aboutSection';
-@import 'threerings';
-@import 'threesteps';
+@import 'about-section';
+@import 'three-rings';
+@import 'three-steps';
 @import 'baners';
 @import 'typical-maltfuntions';
 @import 'faq';
