@@ -2,7 +2,11 @@
     
     background-color: #fff;
     box-shadow: 0px -1px 10px 1px black;
-    transition: top 0.3s;
+    transition: top 0.4s;
+
+    h2 {
+        padding: 10px 0px;
+    }
 
     a {
         margin: 0 15px;
@@ -24,4 +28,13 @@
             justify-content: center !important;
         }
     }
+
+    @media all and (max-width: 992px) {
+
+        #headerLogo-container
+        {
+            display: none;
+        }
+    }
+
 }
