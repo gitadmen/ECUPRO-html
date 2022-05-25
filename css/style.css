@@ -527,6 +527,7 @@ section {
 }
 
 #threerings {
+  overflow: hidden;
   text-align: center;
   padding-top: 50px;
 }
