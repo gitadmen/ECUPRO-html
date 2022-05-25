@@ -489,18 +489,23 @@ section {
   color: #515b69;
 }
 
-@media all and (max-width: 1200px) {
-  #navbar h2 {
-    display: none;
-  }
-}
-
 @media all and (max-width: 768px) {
   #navbar li {
     width: 33.33%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+@media all and (max-width: 768px) {
+  h1, h2, h3, h4, h5 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  section {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
@@ -658,6 +663,12 @@ section {
 #workshop h2 {
   font-size: 48px;
   margin-bottom: 30px;
+}
+
+@media all and (max-width: 768px) {
+  #workshop {
+    background-attachment: scroll;
+  }
 }
 
 #add-info {

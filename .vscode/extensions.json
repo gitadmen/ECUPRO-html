@@ -1,0 +1,18 @@
+{
+    "recommendations": [
+        "humy2833.ftp-simple"
+    ]
+
+    [
+        {
+            "name": "SEOHOST",
+            "host": "h24.seohost.pl",
+            "port": 21,
+            "type": "ftp",
+            "username": "srv19574",
+            "password": "z6dKwx6YTT1T",
+            "path" : "/"
+        }
+    
+    ]
+}

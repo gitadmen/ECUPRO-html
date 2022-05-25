@@ -20,18 +20,25 @@
         }
     }
 
-    @media all and (max-width: 1200px) {
-        h2 {
-            display: none;
-        }
-    }
 
     @media all and (max-width: 768px) {
         li {
             width: 33.33%;
             justify-content: center;
         }
-        
     }
 
+}
+
+@media all and (max-width: 768px) {
+    
+    h1, h2, h3, h4, h5 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
