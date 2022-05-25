@@ -1,5 +1,7 @@
 #navbar {
-    
+
+
+    padding: 0;
     background-color: #fff;
     box-shadow: 0px -1px 10px 1px black;
     transition: top 0.4s;
@@ -9,7 +11,8 @@
     }
 
     a {
-        margin: 0 15px;
+        text-align: center;
+        margin: 15px 15px;
         font-weight: 400;
 
         &:hover {
@@ -18,15 +21,17 @@
     }
 
     @media all and (max-width: 1200px) {
-
-        #nav-container {
-            padding-top: 25px;
-            padding-bottom: 25px;
+        h2 {
+            display: none;
         }
+    }
 
-        #nav-list {
-            justify-content: center !important;
+    @media all and (max-width: 768px) {
+        li {
+            width: 33.33%;
+            justify-content: center;
         }
+        
     }
 
 }
