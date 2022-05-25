@@ -2,14 +2,11 @@
 
     padding-top: 0;
 
-    .slide {
-        padding: 200px auto 60px auto;
-        
-        h2,
-        p {
-            color: white;
-        }
+    h2,
+    p {
+        color: white;
     }
+
 
     #slide-1 {
         background: linear-gradient(180deg, rgba(244, 246, 248, 1) 5%, rgba(244, 246, 248, 0.2) 88%), url(/img/slider-background-1.jpg);

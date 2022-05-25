@@ -466,6 +466,19 @@ section {
   padding: 90px 0px;
 }
 
+@media all and (max-width: 768px) {
+  section {
+    padding: 0px 0px 20px 0px;
+  }
+  h2 {
+    padding: 40px 0px 0px 0px;
+    font-size: 36px !important;
+  }
+  #faq-ecu-photo {
+    padding-top: 50px;
+  }
+}
+
 #navbar {
   padding: 0;
   background-color: #fff;
@@ -498,19 +511,8 @@ section {
   }
 }
 
-@media all and (max-width: 768px) {
-  h1, h2, h3, h4, h5 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  section {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-}
-
 #slider {
-  padding: 200px 100px 100px 100px;
+  padding: 200px 0px 100px 0px;
   background: #192940;
   background: linear-gradient(126deg, #192940 0%, #3f3446 11%, #693f4d 23%, #4a2a43 31%, #3c2448 38%, #180e44 50%, #211836 64%, #242f45 80%, #2c2326 88%, #2c2326 100%);
 }
@@ -533,7 +535,6 @@ section {
 #threerings {
   overflow: hidden;
   text-align: center;
-  padding-top: 50px;
 }
 
 #threerings img {
@@ -572,7 +573,6 @@ section {
 }
 
 #baner-blue {
-  padding: 50px 60px;
   background-color: #1a1f3a;
 }
 
@@ -588,7 +588,6 @@ section {
 }
 
 #baner-white {
-  padding: 50px 60px;
   background-color: #f4f6f8;
 }
 
@@ -598,8 +597,8 @@ section {
 }
 
 #baner-white #caller-second {
-  background-color: #fff;
-  border-radius: 10px;
+  background-color: #1a1f3a;
+  border-radius: 2px;
 }
 
 #typical-maltfuntions {
@@ -614,7 +613,6 @@ section {
 }
 
 #typical-maltfuntions header {
-  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -649,8 +647,8 @@ section {
   border-color: #35baf2;
 }
 
-#faq img {
-  padding: 40px 0px 80px 0px;
+#faq .question-box {
+  padding-top: 45px;
 }
 
 #workshop {
@@ -662,7 +660,6 @@ section {
 
 #workshop h2 {
   font-size: 48px;
-  margin-bottom: 30px;
 }
 
 @media all and (max-width: 768px) {
@@ -682,7 +679,6 @@ section {
 
 #add-info .grey {
   background-color: #e7ebee;
-  padding: 80px;
 }
 
 #add-info .grey p,
@@ -692,7 +688,6 @@ section {
 
 #add-info .darkblue {
   background-color: #1a1f3a;
-  padding: 80px;
 }
 
 #add-info .darkblue p,
@@ -700,24 +695,12 @@ section {
   color: #e7ebee;
 }
 
-#articles h3 {
-  padding: 30px 0px;
-}
-
-#articles article {
-  padding: 30px;
-}
-
 #three-slides {
   padding-top: 0;
 }
 
-#three-slides .slide {
-  padding: 200px auto 60px auto;
-}
-
-#three-slides .slide h2,
-#three-slides .slide p {
+#three-slides h2,
+#three-slides p {
   color: white;
 }
 
@@ -740,7 +723,6 @@ section {
 }
 
 #contact {
-  padding-top: 0px;
   text-align: center;
 }
 
@@ -757,9 +739,5 @@ section {
   font-size: 22px;
   font-weight: 100;
   padding: 10px;
-}
-
-#contact i {
-  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */
