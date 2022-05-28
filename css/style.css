@@ -501,6 +501,11 @@ article li {
   font-size: 22px;
 }
 
+article p {
+  font-size: 26px;
+  color: black;
+}
+
 #navbar {
   padding: 0;
   background-color: #fff;
