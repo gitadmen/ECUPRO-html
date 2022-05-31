@@ -479,17 +479,16 @@ section {
   }
 }
 
-#header-baner h1 {
-  color: white;
-  padding: 40px;
-}
-
 #header-baner {
   background-image: url(/img/DAF-The-New-XF.jpg);
-  background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center top;
-  padding: 150px 0px 150px 0px;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+#header-baner h1 {
+  color: white;
+  padding: 200px 40px;
 }
 
 article h2,
@@ -504,6 +503,10 @@ article ul {
 article ul li {
   font-size: 23px;
   padding-top: 4px;
+}
+
+article ul li a {
+  font-size: 32px;
 }
 
 article p {
