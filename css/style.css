@@ -497,8 +497,13 @@ article h3 {
   padding-bottom: 10px;
 }
 
-article li {
-  font-size: 22px;
+article ul {
+  padding-left: 0;
+}
+
+article ul li {
+  font-size: 23px;
+  padding-top: 4px;
 }
 
 article p {
