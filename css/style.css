@@ -480,7 +480,7 @@ section {
 }
 
 #header-baner {
-  background-image: url(/img/DAF-The-New-XF.jpg);
+  background-image: url(/img/DAF-The-New-XF.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: fixed;
@@ -489,6 +489,7 @@ section {
 #header-baner h1 {
   color: white;
   padding: 200px 40px;
+  position: relative;
 }
 
 article h2,
@@ -740,21 +741,24 @@ article p {
 }
 
 #three-slides #slide-1 {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f4f6f8), color-stop(88%, rgba(244, 246, 248, 0.2))), url(/img/slider-background-1.jpg);
-  background: linear-gradient(180deg, #f4f6f8 5%, rgba(244, 246, 248, 0.2) 88%), url(/img/slider-background-1.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f4f6f8), color-stop(88%, rgba(244, 246, 248, 0.2))), url(/img/slider-background-1.webp);
+  background: linear-gradient(180deg, #f4f6f8 5%, rgba(244, 246, 248, 0.2) 88%), url(/img/slider-background-1.webp);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #three-slides #slide-2 {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f4f6f8), color-stop(88%, rgba(244, 246, 248, 0.2))), url(/img/slider-background-3.jpg);
-  background: linear-gradient(180deg, #f4f6f8 5%, rgba(244, 246, 248, 0.2) 88%), url(/img/slider-background-3.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f4f6f8), color-stop(88%, rgba(244, 246, 248, 0.2))), url(/img/slider-background-3.webp);
+  background: linear-gradient(180deg, #f4f6f8 5%, rgba(244, 246, 248, 0.2) 88%), url(/img/slider-background-3.webp);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #three-slides #slide-3 {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f4f6f8), color-stop(88%, rgba(244, 246, 248, 0.2))), url(/img/slider-background-2.jpg);
-  background: linear-gradient(180deg, #f4f6f8 5%, rgba(244, 246, 248, 0.2) 88%), url(/img/slider-background-2.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f4f6f8), color-stop(88%, rgba(244, 246, 248, 0.2))), url(/img/slider-background-2.webp);
+  background: linear-gradient(180deg, #f4f6f8 5%, rgba(244, 246, 248, 0.2) 88%), url(/img/slider-background-2.webp);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #contact {

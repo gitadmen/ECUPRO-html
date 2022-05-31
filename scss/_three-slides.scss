@@ -9,19 +9,24 @@
 
 
     #slide-1 {
-        background: linear-gradient(180deg, rgba(244, 246, 248, 1) 5%, rgba(244, 246, 248, 0.2) 88%), url(/img/slider-background-1.jpg);
+        background: linear-gradient(180deg, rgba(244, 246, 248, 1) 5%, rgba(244, 246, 248, 0.2) 88%), url(/img/slider-background-1.webp);
         background-size: cover;
+        background-repeat: no-repeat;
     }
 
     #slide-2 {
-        background: linear-gradient(180deg, rgba(244, 246, 248, 1) 5%, rgba(244, 246, 248, 0.2) 88%), url(/img/slider-background-3.jpg);
+        background: linear-gradient(180deg, rgba(244, 246, 248, 1) 5%, rgba(244, 246, 248, 0.2) 88%), url(/img/slider-background-3.webp);
         background-size: cover;
+        background-repeat: no-repeat;
     }
 
     #slide-3 {
-        background: linear-gradient(180deg, rgba(244, 246, 248, 1) 5%, rgba(244, 246, 248, 0.2) 88%), url(/img/slider-background-2.jpg);
+        background: linear-gradient(180deg, rgba(244, 246, 248, 1) 5%, rgba(244, 246, 248, 0.2) 88%), url(/img/slider-background-2.webp);
         background-size: cover;
+        background-repeat: no-repeat;
     }
 
 
 }
+
+
