@@ -416,6 +416,10 @@ th {
           box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   color: #515b69;
@@ -425,7 +429,12 @@ i {
   color: #35baf2;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Source Sans Pro", sans-serif;
   color: #515b69;
   font-weight: 300;
@@ -443,7 +452,8 @@ h3 {
   font-size: 28px;
 }
 
-a, button {
+a,
+button {
   -webkit-transition: all .3s;
   transition: all .3s;
   text-decoration: none;
@@ -482,19 +492,24 @@ section {
 #header-baner {
   background-image: url(/img/DAF-The-New-XF.webp);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 #header-baner h1 {
   color: white;
-  padding: 200px 40px;
-  position: relative;
+  padding: 230px 40px 0px 40px;
 }
 
-article h2,
+@media all and (max-width: 768px) {
+  #header-baner {
+    background-image: url(/img/DAF-The-New-XF_Mobile.webp);
+  }
+}
+
 article h3 {
-  padding-bottom: 10px;
+  padding: 25px 0px;
 }
 
 article ul {
@@ -502,16 +517,15 @@ article ul {
 }
 
 article ul li {
-  font-size: 23px;
   padding-top: 4px;
 }
 
 article ul li a {
-  font-size: 32px;
+  font-size: 24px;
 }
 
 article p {
-  font-size: 26px;
+  font-size: 20px;
   color: black;
 }
 
@@ -530,7 +544,7 @@ article p {
 
 #navbar a {
   text-align: center;
-  margin: 15px 15px;
+  margin: 10px 15px;
   font-weight: 400;
 }
 
@@ -638,7 +652,7 @@ article p {
 }
 
 #typical-maltfuntions {
-  background-image: url(/img/light_gradient_violet_bg.jpg);
+  background-image: url(/img/light_gradient_violet_bg.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -688,7 +702,7 @@ article p {
 }
 
 #workshop {
-  background-image: url(/img/workshop-section-bg.jpg);
+  background-image: url(/img/workshop-section-bg.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;

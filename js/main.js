@@ -18,7 +18,7 @@ AOS.init({
     // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
     offset: 200, // offset (in px) from the original trigger point
     delay: 0, // values from 0 to 3000, with step 50ms
-    duration: 600, // values from 0 to 3000, with step 50ms
+    duration: 500, // values from 0 to 3000, with step 50ms
     easing: 'ease-in-sine', // default easing for AOS animations
     once: true, // whether animation should happen only once - while scrolling down
     mirror: false, // whether elements should animate out while scrolling past them
@@ -28,11 +28,14 @@ AOS.init({
 
 
 var prevScrollpos = window.pageYOffset;
+
+
 window.onscroll = function () {
     var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
         document.getElementById("navbar").style.top = "0";
-    } else {
+        
+    } else if (pageYOffset > 250) {
         document.getElementById("navbar").style.top = "-200px";
     }
     prevScrollpos = currentScrollPos;
