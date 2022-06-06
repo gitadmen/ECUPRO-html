@@ -26,18 +26,3 @@ AOS.init({
 
 });
 
-
-var prevScrollpos = window.pageYOffset;
-
-
-window.onscroll = function () {
-    var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-        document.getElementById("navbar").style.top = "0";
-        
-    } else if (pageYOffset > 250) {
-        document.getElementById("navbar").style.top = "-200px";
-    }
-    prevScrollpos = currentScrollPos;
-}
-
